@@ -19,7 +19,7 @@ showContact = false
 showBoards  = false
 showCertifications = false
 showSocializations = true
-sections = ["publications","experience","education"]
+sections = ["publications","experience","creations","education"]
 
 
 [params.google]
