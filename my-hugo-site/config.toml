@@ -1,0 +1,42 @@
+title = "Donny Flynn"
+baseURL = "https://example.com/"
+theme = "resume"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Oxford, UK"
+email = "donald.flynn@maths.ox.ac.uk"
+favicon = "/favicon.ico"
+firstName = "Donny"
+lastName = "Flynn"
+profileImage = "img/donny.jpg"
+showQr = false
+showContact = false
+showBoards  = false
+showCertifications = false
+showSocializations = true
+sections = ["publications","creations","contributions","experience","education","blog"]
+
+
+[params.google]
+
+[params.google.analytics]
+trackerID = "XX-123446-01"
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/donny-flynn-7821b4216"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/donaldflynn"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
