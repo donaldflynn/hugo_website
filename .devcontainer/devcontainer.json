@@ -21,7 +21,8 @@
       	}
       }
 	},
-	"postCreateCommand": "echo 'alias start=\"hugo server --poll 700ms\"' >> ~/.bashrc"
+	"postCreateCommand": "echo 'alias start=\"hugo server --poll 700ms\"' >> ~/.bashrc && git config core.autocrlf false && git config core.filemode false"
+	
 
 
 
