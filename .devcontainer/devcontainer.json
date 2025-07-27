@@ -13,7 +13,17 @@
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [1313],
-	"workspaceFolder": "/workspaces/hugo_website/my-hugo-site"
+	"workspaceFolder": "/workspaces/hugo_website",
+	"customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.cwd": "${workspaceFolder}/my-hugo-site"
+      	}
+      }
+	},
+	"postCreateCommand": "echo 'alias start=\"hugo server --poll 700ms\"' >> ~/.bashrc"
+
+
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "go version",
