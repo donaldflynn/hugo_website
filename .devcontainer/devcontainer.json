@@ -17,7 +17,10 @@
 	"customizations": {
     "vscode": {
       "settings": {
-        "terminal.integrated.cwd": "${workspaceFolder}/my-hugo-site"
+        "terminal.integrated.cwd": "${workspaceFolder}/my-hugo-site",
+		"files.useExperimentalFileWatcher": true,
+    	"git.autorefresh": true,
+    	"git.detectChanges": true
       	}
       }
 	},
