@@ -1,3 +1,0 @@
-[submodule "themes/resume"]
-	path = my-hugo-site/themes/resume
-	url = https://github.com/donaldflynn/hugo-resume
