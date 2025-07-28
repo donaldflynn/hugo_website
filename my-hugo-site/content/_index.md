@@ -9,4 +9,4 @@ outputs:
 - rss
 - json
 ---
-PhD Student at the University of Oxford
+PhD Student at the University of Oxford. I am interested in Random Matrix Theory and Machine Learning, using probabilistic methods to gain understanding of high dimensional systems and optimisation problems.
