@@ -1,5 +1,4 @@
 title = "Donny Flynn"
-baseURL = "https://example.com/"
 theme = "resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
